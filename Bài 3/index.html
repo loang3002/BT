@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bài tập 3</title>
+</head>
+
+<body>
+  <h1>
+    Bài tập 3:
+  </h1>
+  <h3>
+    Bài 3.1: Quan sát một số URL trên mạng
+  </h3>
+  <ol>
+    <li>
+      Mở trình duyệt, nhập vào thanh địa chỉ một URL bất kỳ, ví dụ: <a
+        href="https://en.wikipedia.org/">https://en.wikipedia.org/</a>
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/bde0e80d-a773-4b8f-8439-26b6cfed397b.image.png?v=1663815842684"
+          title="Bài tập 3.1" width="400" heigh="300">
+      </div>
+    </li>
+    <li>
+      Trình duyệt sẽ đổi tên miền en.wikipedia.org sang địa chỉ IP, kết nối tới máy server dựa trên IP và lấy về trang
+      web. Bạn vào cửa sổ cmd, gõ lệnh: ping en.wikipedia.org, ghi lại địa chỉ IP máy server của wikipedia.
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/a7550fc2-5368-4def-806b-e18fac25b443.Screenshot%20(35).png?v=1663815795630"
+          title="Bài tập 3.1" width="400" heigh="200">
+      </div>
+    </li>
+    <li>
+      Server sẽ gửi trang mặc định về cho trình duyệt, ví dụ <a
+        href="https://en.wikipedia.org/wiki/Main_Page">https://en.wikipedia.org/wiki/Main_Page</a>
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/d785a77b-4fc1-4e99-8c33-34aac6cc6e9a.Screenshot%20(33).png?v=1663815796082"
+          title="Bài tập 3.1" width="400" heigh="200">
+
+      </div>
+    </li>
+    <li>
+      Di chuyển chuột vào các liên kết (ít nhất 5 liên kết) có trên trang web, quan sát trên thanh trạng thái (status
+      bar) của trình duyệt (thanh ngang phía dưới của cửa sổ trình duyệt), ghi lại các URL mà bạn quan sát được.
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/8454972c-eb38-491e-a382-27b87a451e5b.Screenshot%20(36).png?v=1663815794781"
+          title="Bài tập 3.1" width="400" heigh="200">
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/810a53bf-037d-4832-bc06-e5d44b6a91ef.Screenshot%20(38).png?v=1663815795839"
+          title="Bài tập 3.1" width="400" heigh="200">
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/9fff2a2c-5509-4432-9d79-19b00ffafa0e.Screenshot%20(37).png?v=1663815796460"
+          title="Bài tập 3.1" width="400" heigh="200">
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/95af17ab-41b7-4642-916f-a8c5b6fa2839.Screenshot%20(39).png?v=1663815800457"
+          title="Bài tập 3.1" width="400" heigh="200">
+        <img src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/Screenshot%20(40).png?v=1663816438315"
+          title="Bài tập 3.1" width="400" heigh="200">
+      </div>
+    </li>
+    <li>
+      Thêm thông tin cổng và URL để quan sát kết quả, ví dụ nếu giao thức là https thì thêm cổng 443, giao thức http thì
+      thêm cổng 80, ví dụ: <a
+        href="https://en.wikipedia.org:443/wiki/Main_Page">https://en.wikipedia.org:443/wiki/Main_Page</a>. Bạn sẽ thấy
+      trang web vẫn hiển thị bình thường (không bị lỗi).
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/cb6c077b-145c-4c73-878c-70ca77daa23e.image.png?v=1663816561823"
+          title="Bài tập 3.1" width="400" heigh="200">
+
+      </div>
+    </li>
+    <li>
+      Kiểm tra xem trang wikipedia có hỗ trợ giao thức HTTP hay không, bằng cách nhập vào URL sau: <a
+        href="http://en.wikipedia.org:80/wiki/Main_Page">http://en.wikipedia.org:80/wiki/Main_Page</a>
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/896928f2-16f0-4247-ba5f-f6f90f55fc17.image.png?v=1663816713391"
+          title="Bài tập 3.1" width="400" heigh="200">
+
+      </div>
+    </li>
+    <li>
+      Vào trang Tiki.vn, sử dụng trang web, quan sát và ghi lại giá trị của chuỗi truy vấn “query_string”. Ví dụ: <a
+        href="https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh">https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh</a>
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/817adacb-210a-4a52-b3f1-95ecb897567a.image.png?v=1663816827700"
+          title="Bài tập 3.1" width="400" heigh="200">
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/37bbf193-bb34-4f60-be78-a1dce37b7ed5.image.png?v=1663816862382"
+          title="Bài tập 3.1" width="400" heigh="200">
+
+      </div>
+    </li>
+  </ol>
+  <!--cau 3.2-->
+  <h3>
+    Bài Tập 3.2: Quan sát URL trên máy cục bộ</h3>
+  <ol>
+    <li>
+      Trên máy cục bộ, sử dụng phầm mềm Notepad tạo một tập tin HTML có nội dung bất kỳ, ví dụ: D:\index.html với nội
+      dung là dòng chữ “Xin chao”
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/a7815cd3-a174-4d40-89c2-f442f0feb30d.image.png?v=1663817774580"
+          title="Bài tập 3.2" width="400" heigh="200">
+      </div>
+    </li>
+    <li>
+      Bấm đúp vào tập tin index.html để mở tập tin bằng trình duyệt, sẽ thấy dòng chữ “Xin chao” xuất hiện trên màn
+      hình.
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/454c44f7-df14-4105-97fa-6b047708d5b2.image.png?v=1663818213918"
+          title="Bài tập 3.2" width="400" heigh="200">
+      </div>
+    </li>
+    <li>
+      Quan sát đường dẫn sẽ thấy URL có nội dung sau: file:///D:/index.html
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/fcdde2be-49d0-4f83-99a8-e9dc1c2c5d11.image.png?v=1663818502807"
+          title="Bài tập 3.2" width="400" heigh="200">
+
+      </div>
+    </li>
+    <li>
+      Tạo thư mục mới có tên là mywebsite, chuyển tập tin index.html vào trong thư mục vừa tạo, quan sát URL để hiểu
+      thêm về đường dẫn thư mục. Ví dụ: file:///D:/mywebsite/index.html
+      <div>
+        <img
+          src="https://cdn.glitch.global/cf361e33-09cf-4b21-91ab-fc7444afed58/2ce9b69f-1cf3-4d71-b96a-6bfe27a5c13d.image.png?v=1663818833976"
+          title="Bài tập 3.2" width="400" heigh="200">
+      </div>
+    </li>
+  </ol>
+  <!--cau 3.3 -->
+  <h3>
+    Bài tập 3.3
+  </h3>
+  <ol>
+    <li>
+
+      <div>
+
+      </div>
+    </li>
+  </ol>
+</body>
+
+</html>
